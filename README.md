@@ -1,2 +1,2 @@
-# simple-math-games
-Game project to study math
+# простые-математические-игры
+Проект игр для изучения математики

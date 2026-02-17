@@ -1,0 +1,32 @@
+# Исключить node_modules и сборочные артефакты
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Исключить build и dist
+client/build/
+client/dist/
+server/dist/
+
+# Исключить временные и системные файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Исключить package-lock и yarn.lock (Docker будет сам устанавливать зависимости)
+package-lock.json
+yarn.lock
+client/package-lock.json
+client/yarn.lock
+server/package-lock.json
+server/yarn.lock
+
+# Исключить .env и локальные настройки
+.env
+.docker/
+*.local
+
+# Разрешить только исходный код и необходимые ресурсы для сборки в Docker
